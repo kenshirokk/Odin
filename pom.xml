@@ -16,6 +16,7 @@
 
 	<modules>
 		<module>springboot</module>
+		<module>dynamic-datasource-spring-boot-starter</module>
 	</modules>
 
 	<dependencyManagement>
