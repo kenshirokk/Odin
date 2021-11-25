@@ -15,7 +15,7 @@ public class NettyServer {
         //创建2个线程组
         //boss只是处理连接请求, 真正与客户端业务处理的会交给worker
         //2个都是无限循环
-        EventLoopGroup boss = new NioEventLoopGroup();
+        EventLoopGroup boss = new NioEventLoopGroup(1);
         EventLoopGroup worker = new NioEventLoopGroup();
 
         //创建服务器端启动的对象, 配置启动参数
