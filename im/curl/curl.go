@@ -6,33 +6,33 @@ import (
 )
 
 
-type user struct {
+type user2 struct {
 	name string
 	age  int
 }
 
 type admin struct {
-	user
+	user2
 	level int
 }
 
-func (u *user) notify() {
+func (u *user2) notify() {
 	fmt.Println(u)
 }
 
 func main() {
 	ad := admin{
-		user:  user{
+		user2:  user2{
 			name: "admin",
 			age:  10,
 		},
 		level: 5,
 	}
 	fmt.Println(ad)
-	fmt.Println(ad.user.name)
+	fmt.Println(ad.user2.name)
 	fmt.Println(ad.name)
 	ad.notify()
-	ad.user.notify()
+	ad.user2.notify()
 	fmt.Println(ad.name == "admin")
-
+	fmt.Println(runtime.NumCPU())
 }
