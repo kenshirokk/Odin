@@ -30,24 +30,6 @@ public class StringServer {
                             public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
                                 System.out.println("===================handler1");
                                 System.out.println(msg);
-//                                ctx.fireChannelRead(msg);
-                                ctx.fireChannelActive();
-                            }
-
-                            @Override
-                            public void channelActive(ChannelHandlerContext ctx) throws Exception {
-                                System.out.println("handler1 active");
-                            }
-                        }).addLast("handler2", new ChannelInboundHandlerAdapter() {
-                            @Override
-                            public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-                                System.out.println("===================handler2");
-                                System.out.println(msg);
-                            }
-
-                            @Override
-                            public void channelActive(ChannelHandlerContext ctx) throws Exception {
-                                System.out.println("handler2 active");
                             }
                         });
                     }
