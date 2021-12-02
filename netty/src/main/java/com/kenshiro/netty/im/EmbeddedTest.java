@@ -20,7 +20,7 @@ public class EmbeddedTest {
                 new MessageCodec());
 
         //encode
-        LoginRequestMessage lm = new LoginRequestMessage("zhangsan", "12345", "张三");
+        LoginRequestMessage lm = new LoginRequestMessage("zhangsan", "12345");
         channel.writeOutbound(lm);
 
         //decode
