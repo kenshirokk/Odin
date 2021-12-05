@@ -7,7 +7,7 @@ public class Test4 {
     public static int count = 0;
     public static volatile int count1 = 0;
     public static AtomicInteger count2 = new AtomicInteger(0);
-    public static Object lock = new Object();
+    public static final Object lock = new Object();
     public static void main(String[] args) throws InterruptedException {
         AtomicInteger count3 = new AtomicInteger(0);
         long begin = System.currentTimeMillis();
