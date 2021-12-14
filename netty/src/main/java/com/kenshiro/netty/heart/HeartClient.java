@@ -36,7 +36,7 @@ public class HeartClient {
                                 public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
                                     IdleStateEvent e = (IdleStateEvent) evt;
                                     if (e.state() == IdleState.WRITER_IDLE) {
-                                        log.debug("3秒没有写数据");
+                                        log.debug("3秒没有写数据2");
                                     }
                                 }
                             });
@@ -44,9 +44,9 @@ public class HeartClient {
                             pipeline.addLast(bigTask, "耗时任务", new ChannelInboundHandlerAdapter() {
                                 @Override
                                 public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-                                    log.debug("处理任务");
+                                    log.debug("处理任务2");
                                     try {
-                                        TimeUnit.SECONDS.sleep(1000000);
+                                        TimeUnit.SECONDS.sleep(3);
                                     } catch (InterruptedException e) {
                                         e.printStackTrace();
                                     }
