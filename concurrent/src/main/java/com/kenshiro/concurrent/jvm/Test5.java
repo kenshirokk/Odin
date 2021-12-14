@@ -1,10 +1,6 @@
 package com.kenshiro.concurrent.jvm;
 
 /**
- * Classfile /I:/GitHub/Odin/concurrent/target/classes/com/kenshiro/concurrent/jvm/Test5.class
- *   Last modified 2021年12月14日; size 663 bytes
- *   MD5 checksum 289e849b2ccb3fbf73b7f0fd63810076
- *   Compiled from "Test5.java"
  * public class com.kenshiro.concurrent.jvm.Test5
  *   minor version: 0
  *   major version: 55
