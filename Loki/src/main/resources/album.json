@@ -1,0 +1,96 @@
+{
+    "result": true, 
+    "code": 0, 
+    "msg": "", 
+    "timestamp": 1387283253, 
+    "data": {
+        "total": 3, 
+        "album_list": [
+            {
+                "album_id": "38138872", 
+                "uid": "1970181201", 
+                "property": "1", 
+                "status": "255", 
+                "type": 18, 
+                "source": "1039857299", 
+                "album_order": "0", 
+                "created_at": "2011-11-21", 
+                "caption": "头像相册", 
+                "description": "", 
+                "cover_pic": "http://tp2.sinaimg.cn/1970181201/180/1297751342/1", 
+                "cover_photo_id": "62603618", 
+                "question": "", 
+                "answer": "", 
+                "updated_at": "2011-11-21", 
+                "timestamp": "1321888378", 
+                "updated_at_int": "1321888378", 
+                "is_favorited": false, 
+                "is_private": false, 
+                "thumb120_pic": "http://tp2.sinaimg.cn/1970181201/180/1297751342/1", 
+                "thumb300_pic": "http://tp2.sinaimg.cn/1970181201/180/1297751342/1", 
+                "sq612_pic": "http://tp2.sinaimg.cn/1970181201/180/1297751342/1", 
+                "count": {
+                    "photos": 1, 
+                    "likes": 0, 
+                    "comments": 0, 
+                    "retweets": 0
+                }
+            }, 
+            {
+                "album_id": "3410204952601814", 
+                "uid": "1970181201", 
+                "description": "", 
+                "cover_pic": "http://ww3.sinaimg.cn/thumb150/756e9451jw1ebc62zdnzyj20dc0hs0vb.jpg", 
+                "property": 1, 
+                "album_order": "0", 
+                "question": "", 
+                "answer": "", 
+                "status": 254, 
+                "is_private": false, 
+                "type": 3, 
+                "caption": "微博配图", 
+                "timestamp": 1297744767, 
+                "updated_at_int": 1386475768, 
+                "created_at": "2011-02-15", 
+                "updated_at": "12月8日", 
+                "is_favorited": false, 
+                "thumb120_pic": "http://ww3.sinaimg.cn/thumbnail/756e9451jw1ebc62zdnzyj20dc0hs0vb.jpg", 
+                "thumb300_pic": "http://ww3.sinaimg.cn/thumb300/756e9451jw1ebc62zdnzyj20dc0hs0vb.jpg", 
+                "sq612_pic": "http://ww3.sinaimg.cn/sq612/756e9451jw1ebc62zdnzyj20dc0hs0vb.jpg", 
+                "count": {
+                    "photos": 43, 
+                    "likes": 0, 
+                    "comments": 0, 
+                    "retweets": 0
+                }
+            }, 
+            {
+                "album_id": "3476524552743591", 
+                "uid": "1970181201", 
+                "property": "1", 
+                "status": "253", 
+                "type": 24, 
+                "source": "3921486263", 
+                "album_order": "0", 
+                "created_at": "2012-08-07", 
+                "caption": "默认专辑", 
+                "description": "", 
+                "cover_pic": "", 
+                "cover_photo_id": "0", 
+                "question": "", 
+                "answer": "", 
+                "updated_at": "2012-08-07", 
+                "timestamp": "1344351507", 
+                "updated_at_int": "1344351507", 
+                "is_favorited": false, 
+                "is_private": false, 
+                "count": {
+                    "photos": 0, 
+                    "likes": 0, 
+                    "comments": 0, 
+                    "retweets": 0
+                }
+            }
+        ]
+    }
+}
